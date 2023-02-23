@@ -11,6 +11,8 @@ jobs:
     name: Build artifact
     steps:
       - uses: actions/checkout@v2
+        name: Checkout 
+        
         name: Installing dependencies
         run: npm ci
       
